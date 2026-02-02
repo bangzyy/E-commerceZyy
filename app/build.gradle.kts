@@ -49,6 +49,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
     implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
 
     // Firebase Dependencies (Corrected to use version catalog)
     implementation(platform(libs.firebase.bom)) // Hanya satu deklarasi BOM
